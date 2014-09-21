@@ -56,7 +56,7 @@
 						}		
 						$file = fopen("opensearch.xml", "w");
 						fwrite($file, $content);
-						echo "<script> alert('OK,Ready) </script>";
+						echo "<script> alert('OK,Ready') </script>";
 						fclose($file);
 						reload();
 				}
